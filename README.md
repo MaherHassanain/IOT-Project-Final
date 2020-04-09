@@ -46,13 +46,21 @@ Windows: In terminal, on code directory where the program folder was cloned, wri
 5- How to run the programs
 Windwows:
 On terminal where the code directory is, three terminals need to be open for the whole programs to run:
+
 First terminal
+
 - python3 Thermostat.py
+
 Second terminal
+
 - python3 ManagementApp.py
+
 Third terminal
+
 - python3 SmartDoorLocker.py
+
 Fourth terminal (not fully functional, but implemented)
+
 - python3 Broker.py
 
 To establish connection successfully to the broker instead of the open source broker used for the project, then:
