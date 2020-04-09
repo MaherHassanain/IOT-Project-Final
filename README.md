@@ -3,23 +3,23 @@ Smart Home Cooling/Heating System
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 1- Short description
-Broker.py starts broker and establishes connection with publishers/subscribers clients. Although connections are successful, subscribers fail to invoke the on_message method.
-Thermostat.py is an MQTT subscriber that monitors, and adjusts home temprature based on the smart home system model. The temprature is set based on FIFO entry priority inside the household.
-SmartDoorLocker.py is an MQTT publisher simulation of people enetring or leaving the house.
-ManagementApp.py is an MAQTT publisher that manages personel that are members of the household. It also allows view of household members and reset of members.
+-Broker.py starts broker and establishes connection with publishers/subscribers clients. Although connections are successful, subscribers fail to invoke the on_message method.
+-Thermostat.py is an MQTT subscriber that monitors, and adjusts home temprature based on the smart home system model. The temprature is set based on FIFO entry priority inside the household.
+-SmartDoorLocker.py is an MQTT publisher simulation of people enetring or leaving the house.
+-ManagementApp.py is an MAQTT publisher that manages personel that are members of the household. It also allows view of household members and reset of members.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 2-Software libraries
 
-hbmqtt (https://hbmqtt.readthedocs.io/en/latest/)
-paho-mqtt (https://pypi.org/project/paho-mqtt/) 
-asyncio (https://pypi.org/project/asyncio/)
-pymongo (https://api.mongodb.com/python/current/installation.html)
+1-hbmqtt (https://hbmqtt.readthedocs.io/en/latest/)
+2-paho-mqtt (https://pypi.org/project/paho-mqtt/) 
+3-asyncio (https://pypi.org/project/asyncio/)
+4-pymongo (https://api.mongodb.com/python/current/installation.html)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 3-OS information
 
-Python program can be run by vriaty of OS including Windows and Linux systems. 
+-Python program can be run by vriaty of OS including Windows and Linux systems. 
 On Linux:
 python versions 2.7.9+ or 3.4+ and corresponding pip.
 pymongo version 3.10.1.
@@ -34,8 +34,8 @@ pymongo version 3.10.1.
 
 Installing of libraries:
 Windows: In terminal, on code directory where the program folder was cloned, write the following lines
--pip3 install hbmqtt paho-mqtt asyncio (installs libraries to support for hbmqtt, paho-mqtt and asyncio)
--python3 -m pip install pymongo (installs necessary libraries for the NoSQL)
+1-pip3 install hbmqtt paho-mqtt asyncio (installs libraries to support for hbmqtt, paho-mqtt and asyncio)
+2-python3 -m pip install pymongo (installs necessary libraries for the NoSQL)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 5- How to run the programs
