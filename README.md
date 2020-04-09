@@ -17,7 +17,7 @@ Smart Home Cooling/Heating System
 4-pymongo (https://api.mongodb.com/python/current/installation.html)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-3-OS information
+3- OS information
 
 -Python program can be run by vriaty of OS including Windows and Linux systems. 
 On Linux:
