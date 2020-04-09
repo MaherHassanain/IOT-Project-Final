@@ -67,7 +67,7 @@ To establish connection successfully to the broker instead of the open source br
 
 1- Open program in any IDE
 
-2- Find connect methods in Thermostat.pt, ManagementApp.py, and SmartDoorLocker.py, and comment them
+2- Find connect methods in Thermostat.py, ManagementApp.py, and SmartDoorLocker.py, and comment them
 
 3- Right below these methods, there are another commented connect method that connects to localhost broker and un-comment them
 
