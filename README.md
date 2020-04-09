@@ -4,8 +4,8 @@ Smart Home Cooling/Heating System
 ---------------------------------------------------------------------------------------------------------------------------------------
 1- Short description
 - Broker.py starts broker and establishes connection with publishers/subscribers clients. Although connections are successful, subscribers fail to invoke the on_message method.
--Thermostat.py is an MQTT subscriber that monitors, and adjusts home temprature based on the smart home system model. The temprature is set based on FIFO entry priority inside the household.
--SmartDoorLocker.py is an MQTT publisher simulation of people enetring or leaving the house.
+- Thermostat.py is an MQTT subscriber that monitors, and adjusts home temprature based on the smart home system model. The temprature is set based on FIFO entry priority inside the household.
+- SmartDoorLocker.py is an MQTT publisher simulation of people enetring or leaving the house.
 - ManagementApp.py is an MAQTT publisher that manages personel that are members of the household. It also allows view of household members and reset of members.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
