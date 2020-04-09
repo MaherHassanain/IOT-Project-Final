@@ -28,6 +28,7 @@ Supports MQTT protocol version 3.1 and 3.11.
 python version 3.8.1.
 pip version 19.2.3.
 pymongo version 3.10.1.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 4- Required tools
 
