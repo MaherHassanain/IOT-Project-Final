@@ -24,7 +24,6 @@ On Linux:
 python versions 2.7.9+ or 3.4+ and corresponding pip 
 pymongo version 3.10.1
 Supports MQTT protocol versions 3.1 and 3.1.1
-
 On windows:
 python version 3.8.1
 pip version 19.2.3
