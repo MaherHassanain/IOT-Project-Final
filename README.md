@@ -64,7 +64,11 @@ Fourth terminal (not fully functional, but implemented)
 - python3 Broker.py
 
 To establish connection successfully to the broker instead of the open source broker used for the project, then:
+
 1- Open program in any IDE
+
 2- Find connect methods in Thermostat.pt, ManagementApp.py, and SmartDoorLocker.py, and comment them
+
 3- Right below these methods, there are another commented connect method that connects to localhost broker and un-comment them
+
 4- Run Broker.py, then run other programs 
