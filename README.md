@@ -11,13 +11,13 @@ Smart Home Cooling/Heating System
 ---------------------------------------------------------------------------------------------------------------------------------------
 2-Software libraries
 
-1-  hbmqtt (https://hbmqtt.readthedocs.io/en/latest/).
+-  hbmqtt (https://hbmqtt.readthedocs.io/en/latest/).
 
-2-  paho-mqtt (https://pypi.org/project/paho-mqtt/).
+-  paho-mqtt (https://pypi.org/project/paho-mqtt/).
 
-3-  asyncio (https://pypi.org/project/asyncio/).
+-  asyncio (https://pypi.org/project/asyncio/).
 
-4-  pymongo (https://api.mongodb.com/python/current/installation.html).
+-  pymongo (https://api.mongodb.com/python/current/installation.html).
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 3- OS information
