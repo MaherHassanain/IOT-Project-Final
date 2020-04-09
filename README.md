@@ -22,12 +22,14 @@ Smart Home Cooling/Heating System
 ---------------------------------------------------------------------------------------------------------------------------------------
 3- OS information
 
-1-  Python program can be run by vriaty of OS including Windows and Linux systems. 
-2-  On Linux:
+-  Python program can be run by vriaty of OS including Windows and Linux systems. 
+
+-  On Linux:
 python versions 2.7.9+ or 3.4+ and corresponding pip.
 pymongo version 3.10.1.
 Supports MQTT protocol version 3.1 and 3.11.
-3  on windows:
+
+-  on windows:
 python version 3.8.1.
 pip version 19.2.3.
 pymongo version 3.10.1.
