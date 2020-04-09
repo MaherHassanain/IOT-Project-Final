@@ -3,10 +3,10 @@ Smart Home Cooling/Heating System
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 1- Short description
--Broker.py starts broker and establishes connection with publishers/subscribers clients. Although connections are successful, subscribers fail to invoke the on_message method.
+- Broker.py starts broker and establishes connection with publishers/subscribers clients. Although connections are successful, subscribers fail to invoke the on_message method.
 -Thermostat.py is an MQTT subscriber that monitors, and adjusts home temprature based on the smart home system model. The temprature is set based on FIFO entry priority inside the household.
 -SmartDoorLocker.py is an MQTT publisher simulation of people enetring or leaving the house.
--ManagementApp.py is an MAQTT publisher that manages personel that are members of the household. It also allows view of household members and reset of members.
+- ManagementApp.py is an MAQTT publisher that manages personel that are members of the household. It also allows view of household members and reset of members.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 2-Software libraries
@@ -41,13 +41,13 @@ Windows: In terminal, on code directory where the program folder was cloned, wri
 5- How to run the programs
 Windwows:
 On terminal where the code directory is, three terminals need to be open for the whole programs to run:
-First terminal:
+First terminal
 - python3 Thermostat.py
-Second terminal:
+Second terminal
 - python3 ManagementApp.py
-Third terminal:
+Third terminal
 - python3 SmartDoorLocker.py
-Fourth terminal: (not fully functional, but implemented)
+Fourth terminal (not fully functional, but implemented)
 - python3 Broker.py
 
 To establish connection successfully to the broker instead of the open source broker used for the project, then:
