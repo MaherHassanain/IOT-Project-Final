@@ -71,4 +71,4 @@ To establish connection successfully to the broker instead of the open source br
 
 3- Right below these variables, there are another commented broker_address = "localhost" that connects to localhost broker and un-comment them
 
-4- Run Broker.py, then run other programs 
+4- Run Broker.py, then run Theromostat.py, ManagementApp.py and SmartDoorLocker.py
