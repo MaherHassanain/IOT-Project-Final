@@ -18,7 +18,8 @@ def on_connect(client, userdata, flags, rc):
 
 Connected = False   #global variable for the state of the connection
 
-broker_address= "test.mosquitto.org"
+# broker_address= "test.mosquitto.org"
+broker_address = "localhost"
 port = 1883
 # user = "yourUser"
 # password = "yourPassword"

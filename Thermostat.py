@@ -226,7 +226,10 @@ client = mqtt.Client()
 # client.on_connect = on_connect
 # client.on_message = on_message
 
-client.connect("test.mosquitto.org", port=1883)
+# broker_address= "test.mosquitto.org"
+broker_address = "localhost"
+
+client.connect(broker_address, port=1883)
 #
 # myclient = pymongo.MongoClient('mongodb://localhost:27017/')
 # mydb = myclient['mydatabase']
