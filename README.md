@@ -47,9 +47,13 @@ Installing of libraries:
 
 Windows: In terminal, on code directory where the program folder was cloned, write the following lines
 
-1- pip3 install hbmqtt paho-mqtt asyncio (installs libraries to support for hbmqtt, paho-mqtt and asyncio)
+1- pip3 install hbmqtt paho-mqtt asyncio 
 
-2- python3 -m pip install pymongo (installs necessary libraries for the NoSQL)
+- installs libraries to support for hbmqtt, paho-mqtt and asyncio
+
+2- python3 -m pip install pymongo 
+
+- installs necessary libraries for the NoSQL
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 5- How to run the programs
