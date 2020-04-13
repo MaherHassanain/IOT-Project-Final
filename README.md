@@ -25,26 +25,37 @@ Smart Home Cooling/Heating System
 -  Python program can be run by vriaty of OS including Windows and Linux systems. 
 
 -  On Linux:
+
 python versions 2.7.9+ or 3.4+ and corresponding pip.
+
 pymongo version 3.10.1.
+
 Supports MQTT protocol version 3.1 and 3.1.1.
 
 -  on windows:
+
 python version 3.8.1.
+
 pip version 19.2.3.
+
 pymongo version 3.10.1.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 4- Required tools
 
 Installing of libraries:
+
 Windows: In terminal, on code directory where the program folder was cloned, write the following lines
+
 1- pip3 install hbmqtt paho-mqtt asyncio (installs libraries to support for hbmqtt, paho-mqtt and asyncio)
+
 2- python3 -m pip install pymongo (installs necessary libraries for the NoSQL)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 5- How to run the programs
+
 Windwows:
+
 On terminal where the code directory is, three terminals need to be open for the whole programs to run:
 
 First terminal
