@@ -53,7 +53,7 @@ Windows: In terminal, on code directory where the program folder was cloned, wri
 
 2- python3 -m pip install pymongo 
 
-- installs necessary libraries for the NoSQL
+- installs necessary libraries for the Mongodb (NOSQL)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 5- How to run the programs
